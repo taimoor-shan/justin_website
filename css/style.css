@@ -1,3 +1,28 @@
+@font-face {
+  font-family: "Flecha S";
+  src: url("../fonts/FlechaS-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "../fonts/Flecha S";
+  src: url("../fonts/FlechaS-Medium.woff2")
+    format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+#animatedText{
+  color:blue;
+}
+
+:root{
+  --blue:#545545; --black:#
+}
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -9895,23 +9920,4 @@ figcaption {
     width: 110%;
   }
 }
-@font-face {
-  font-family: "Flecha S";
-  src: url("../fonts/FlechaS-Regular.woff2")
-    format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "../fonts/Flecha S";
-  src: url("../fonts/FlechaS-Medium.woff2")
-    format("woff2");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
 
-#animatedText{
-  color:blue;
-}
